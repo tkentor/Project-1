@@ -5,16 +5,17 @@
   font-weight: bold;
 }
 
-.subtitle{
+.topicStyle{
   font-size: 80px;
+  color: #bf0d3e;
+  background: white;
+  font-weight: bold;
 }
 
-.topic{
+.questionStyle{
   font-size: 80px;
-}
-
-.questionsStyle{
-  font-size: 80px;
+  color: white;
+  background: #041e42;
 }
 
 title{
@@ -39,11 +40,13 @@ body{
 .face{
   float: left;
   height: auto;
-  width: 23%;
+  width: 15%;
   padding: 5%;
 }
 
-.money{
-  display: inline-block;
-  max-width: 100px;
+#money{
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
