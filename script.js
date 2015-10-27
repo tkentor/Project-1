@@ -1,12 +1,37 @@
 $(document).ready(function(){
-  var questions = ["question 1", "question 2", "question 3"];
+  var questions = ["It's freezing and snowing in New York. We need global warming!", "I don't have friends at NASA. Bunch of nerds.", "They didn't sneak into this country to be your friends.", "Black guys counting my money! I hate it. The only kind of people I want counting my money are little short guys that wear yarmulkes every day.", "I have a great relationship with the blacks.", "If you're worried about criticism, sometimes a diet is the best defense.", "I like when a woman has ambition. It's like seeing a dog wearing clothes.", "The woman is on vacation with her husband as we speak. Probably having beach sex. Which is the third best sex after elevator and White House.", "Money can't buy happiness. It is happiness.", "They're building a wall to separate the US from the immigrants, which was my idea!" ];
   var currentQuestion = 0;
   var nextQuestion = function ( event ) {
-    $("h2").text(questions[currentQuestion]);
+    $(".questionsStyle").text(questions[currentQuestion]);
     currentQuestion += 1;
+
+    if (currentQuestion == 1) {
+      $("#jack").on("click", (function(){
+        $("#jack").attr("src", "farmer.png")
+      }));
+      $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "farmer.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "toilet.png")
+      }))
+    }
+
+    if (currentQuestion == 2) {
+      $("#jack").on("click", (function(){
+        $("#jack").attr("src", "toilet.png")
+      }));
+      $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "farmer.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "farmer.png")
+      }))
+    }
+
   }
 
-$("input").on("click", nextQuestion);
+$("#money").on("click", nextQuestion);
 
 });
 

@@ -1,7 +1,30 @@
+.quiz{
+  font-family: "avenir";
+  color: black;
+  font-size: 160px;
+  font-weight: bold;
+}
+
+.subtitle{
+  font-size: 80px;
+}
+
+.topic{
+  font-size: 80px;
+}
+
+.questionsStyle{
+  font-size: 80px;
+}
+
+title{
+  font-size: 3000px;
+}
+
 body{
   background: #990033;
   background: url("http://i.ytimg.com/vi/roTHJH3_URA/maxresdefault.jpg");
-  background-size: contain;
+  background-size: cover;
   margin: 10%;
   background-position: center;
   font-family: "avenir";
@@ -11,11 +34,7 @@ body{
 
 }
 
-h1{
-  font-family: "avenir";
-  color: black;
-    display: none;
-}
+
 
 .face{
   float: left;
@@ -28,5 +47,3 @@ h1{
   display: inline-block;
   max-width: 100px;
 }
-
-button
