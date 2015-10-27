@@ -1,24 +1,30 @@
 $(document).ready(function(){
 
+  $("#money").hover(function() {
+		$(this).attr("src","money-hover.png");
+  }, function() {
+		$(this).attr("src","money.png");
+  });
+
   var questions = [
-    "It's freezing and snowing in New York. We need global warming!",
-    "They didn't sneak into this country to be your friends.",
-    "I don't have friends at NASA. Bunch of nerds.",
-    "Black guys counting my money! I hate it. The only kind of people I want counting my money are little short guys that wear yarmulkes every day.",
-    "I have a great relationship with the blacks.",
-    "My IQ is one of the highest—and you all know it! Please don’t feel so stupid or insecure, it’s not your fault.",
-    "Dolphins, eskimos, who cares?",
-    "If you're worried about criticism, sometimes a diet is the best defense.",
-    "I like when a woman has ambition. It's like seeing a dog wearing clothes.",
-    "The woman is on vacation with her husband as we speak. Probably having beach sex. Which is the third best sex after elevator and White House.",
-    "Money can't buy happiness. It is happiness.",
-    "They're everywhere. They want to save the earth, but all they do is smoke pot and smell bad.",
-    "They had to put their cardboard box up for a second mortgage.",
-    "My fingers are long and beautiful, as it has been very well documented, are various other parts of my body.",
-    "They're building a wall to separate the US from the immigrants, which was my idea!",
-    "The concept of global warming was created by and for the Chinese",
-    "If that's a veiled criticism about me, I don't hear it and I won't respond to it.",
-    "Ladies and gentlemen, I am officially running for president of the United States."];
+    "“It's freezing and snowing in New York. We need global warming!”",
+    "“They didn't sneak into this country to be your friends.”",
+    "“I don't have friends at NASA. Bunch of nerds.”",
+    "“Black guys counting my money! I hate it. The only kind of people I want counting my money are little short guys that wear yarmulkes every day.”",
+    "“I have a great relationship with the blacks.”",
+    "“My IQ is one of the highest—and you all know it! Please don’t feel so stupid or insecure, it’s not your fault.”",
+    "“Dolphins, eskimos, who cares?”",
+    "“If you're worried about criticism, sometimes a diet is the best defense.”",
+    "“I like when a woman has ambition. It's like seeing a dog wearing clothes.”",
+    "“The woman is on vacation with her husband as we speak. Probably having beach sex. Which is the third best sex after elevator and White House.”",
+    "“Money can't buy happiness. It is happiness.”",
+    "“They're everywhere. They want to save the earth, but all they do is smoke pot and smell bad.”",
+    "“They had to put their cardboard box up for a second mortgage.”",
+    "“My fingers are long and beautiful, as it has been very well documented, are various other parts of my body.”",
+    "“They're building a wall to separate the US from the immigrants, which was my idea!”",
+    "“The concept of global warming was created by and for the Chinese”",
+    "“If that's a veiled criticism about me, I don't hear it and I won't respond to it.”",
+    "“Ladies and gentlemen, I am officially running for president of the United States.”"];
   var currentQuestion = 0;
   var nextQuestion = function ( event ) {
     $(".questionStyle").text(questions[currentQuestion]);
@@ -36,6 +42,7 @@ $(document).ready(function(){
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "toilet.png")
+    //    points++
       }))
     }
 
@@ -330,10 +337,13 @@ var nextTopic = function ( event ) {
   currentTopic += 1;
 
 if (currentQuestion == 1) {
-  alert("Select the wordsmith behind each quote. Reveal a golden toilet and you're smart enough to be President. Otherwise... what are you, a farmer? Click the money to advance.")
+  alert("Select the wordsmith behind each quote. Reveal a golden toilet and you're smart enough to be president. Otherwise, brush up, simpleton... what are you, a farmer?")
 }
 
 }
+
+
+
 
 $("#money").on("click", nextTopic)
 
