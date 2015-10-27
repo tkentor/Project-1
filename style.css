@@ -13,7 +13,7 @@
 }
 
 .questionStyle{
-  font-size: 80px;
+  font-size: 75px;
   color: white;
   background: #041e42;
 }
@@ -47,4 +47,9 @@ body{
   margin-left: auto;
   margin-right: auto;
 
+}
+
+#quotes{
+  background-position: bottom;
+  display: inline-block;
 }

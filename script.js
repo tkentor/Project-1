@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
   var questions = [
     "It's freezing and snowing in New York. We need global warming!",
     "They didn't sneak into this country to be your friends.",
@@ -22,10 +23,6 @@ $(document).ready(function(){
   var nextQuestion = function ( event ) {
     $(".questionStyle").text(questions[currentQuestion]);
     currentQuestion += 1;
-
-    if (currentQuestion == 1) {
-      alert("THE RULES: Select the wordsmith behind each quote. Reveal a golden toilet and you're smart enough to be President. Otherwise... what are you, a farmer? Click the money to advance questions. ")
-    }
 
     if (currentQuestion == 1) {
       $("#jack").on("click", (function(){
@@ -331,7 +328,13 @@ var currentTopic = 0;
 var nextTopic = function ( event ) {
   $(".topicStyle").text(topics[currentTopic]);
   currentTopic += 1;
+
+if (currentQuestion == 1) {
+  alert("Select the wordsmith behind each quote. Reveal a golden toilet and you're smart enough to be President. Otherwise... what are you, a farmer? Click the money to advance.")
 }
+
+}
+
 $("#money").on("click", nextTopic)
 
 });
