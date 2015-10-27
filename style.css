@@ -1,0 +1,32 @@
+body{
+  background: #990033;
+  background: url("http://i.ytimg.com/vi/roTHJH3_URA/maxresdefault.jpg");
+  background-size: contain;
+  margin: 10%;
+  background-position: center;
+  font-family: "avenir";
+  color: black;
+  font-size: 80px;
+  font-style: italic;
+
+}
+
+h1{
+  font-family: "avenir";
+  color: black;
+    display: none;
+}
+
+.face{
+  float: left;
+  height: auto;
+  width: 23%;
+  padding: 5%;
+}
+
+.money{
+  display: inline-block;
+  max-width: 100px;
+}
+
+button
