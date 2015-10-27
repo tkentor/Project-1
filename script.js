@@ -47,6 +47,246 @@ $(document).ready(function(){
         $("#jack").attr("src", "farmer.png")
       }));
       $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "toilet.png")
+      }))
+      $("#cartman").on("click", (function(){
+        $("#cartman").attr("src", "farmer.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "farmer.png")
+      }))
+    }
+
+    if (currentQuestion == 3) {
+      $("#jack").on("click", (function(){
+        $("#jack").attr("src", "toilet.png")
+      }));
+      $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "farmer.png")
+      }))
+      $("#cartman").on("click", (function(){
+        $("#cartman").attr("src", "farmer.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "farmer.png")
+      }))
+    }
+
+    if (currentQuestion == 4) {
+      $("#jack").on("click", (function(){
+        $("#jack").attr("src", "farmer.png")
+      }));
+      $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "farmer.png")
+      }))
+      $("#cartman").on("click", (function(){
+        $("#cartman").attr("src", "farmer.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "toilet.png")
+      }))
+    }
+
+    if (currentQuestion == 5) {
+      $("#jack").on("click", (function(){
+        $("#jack").attr("src", "farmer.png")
+      }));
+      $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "farmer.png")
+      }))
+      $("#cartman").on("click", (function(){
+        $("#cartman").attr("src", "farmer.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "toilet.png")
+      }))
+    }
+
+    if (currentQuestion == 6) {
+      $("#jack").on("click", (function(){
+        $("#jack").attr("src", "farmer.png")
+      }));
+      $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "farmer.png")
+      }))
+      $("#cartman").on("click", (function(){
+        $("#cartman").attr("src", "farmer.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "toilet.png")
+      }))
+    }
+
+    if (currentQuestion == 7) {
+      $("#jack").on("click", (function(){
+        $("#jack").attr("src", "farmer.png")
+      }));
+      $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "farmer.png")
+      }))
+      $("#cartman").on("click", (function(){
+        $("#cartman").attr("src", "toilet.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "farmer.png")
+      }))
+    }
+
+    if (currentQuestion == 8) {
+      $("#jack").on("click", (function(){
+        $("#jack").attr("src", "farmer.png")
+      }));
+      $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "toilet.png")
+      }))
+      $("#cartman").on("click", (function(){
+        $("#cartman").attr("src", "farmer.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "farmer.png")
+      }))
+    }
+
+    if (currentQuestion == 9) {
+      $("#jack").on("click", (function(){
+        $("#jack").attr("src", "toilet.png")
+      }));
+      $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "farmer.png")
+      }))
+      $("#cartman").on("click", (function(){
+        $("#cartman").attr("src", "farmer.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "farmer.png")
+      }))
+    }
+
+    if (currentQuestion == 10) {
+      $("#jack").on("click", (function(){
+        $("#jack").attr("src", "toilet.png")
+      }));
+      $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "farmer.png")
+      }))
+      $("#cartman").on("click", (function(){
+        $("#cartman").attr("src", "farmer.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "farmer.png")
+      }))
+    }
+
+    if (currentQuestion == 11) {
+      $("#jack").on("click", (function(){
+        $("#jack").attr("src", "toilet.png")
+      }));
+      $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "farmer.png")
+      }))
+      $("#cartman").on("click", (function(){
+        $("#cartman").attr("src", "farmer.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "farmer.png")
+      }))
+    }
+
+    if (currentQuestion == 12) {
+      $("#jack").on("click", (function(){
+        $("#jack").attr("src", "farmer.png")
+      }));
+      $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "farmer.png")
+      }))
+      $("#cartman").on("click", (function(){
+        $("#cartman").attr("src", "toilet.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "farmer.png")
+      }))
+    }
+
+    if (currentQuestion == 13) {
+      $("#jack").on("click", (function(){
+        $("#jack").attr("src", "farmer.png")
+      }));
+      $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "farmer.png")
+      }))
+      $("#cartman").on("click", (function(){
+        $("#cartman").attr("src", "toilet.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "farmer.png")
+      }))
+    }
+
+    if (currentQuestion == 14) {
+      $("#jack").on("click", (function(){
+        $("#jack").attr("src", "farmer.png")
+      }));
+      $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "farmer.png")
+      }))
+      $("#cartman").on("click", (function(){
+        $("#cartman").attr("src", "farmer.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "toilet.png")
+      }))
+    }
+
+    if (currentQuestion == 15) {
+      $("#jack").on("click", (function(){
+        $("#jack").attr("src", "farmer.png")
+      }));
+      $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "toilet.png")
+      }))
+      $("#cartman").on("click", (function(){
+        $("#cartman").attr("src", "farmer.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "farmer.png")
+      }))
+    }
+
+    if (currentQuestion == 16) {
+      $("#jack").on("click", (function(){
+        $("#jack").attr("src", "farmer.png")
+      }));
+      $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "farmer.png")
+      }))
+      $("#cartman").on("click", (function(){
+        $("#cartman").attr("src", "farmer.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "toilet.png")
+      }))
+    }
+
+    if (currentQuestion == 17) {
+      $("#jack").on("click", (function(){
+        $("#jack").attr("src", "farmer.png")
+      }));
+      $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "toilet.png")
+      }))
+      $("#cartman").on("click", (function(){
+        $("#cartman").attr("src", "farmer.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "farmer.png")
+      }))
+    }
+
+    if (currentQuestion == 18) {
+      $("#jack").on("click", (function(){
+        $("#jack").attr("src", "farmer.png")
+      }));
+      $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "farmer.png")
       }))
       $("#cartman").on("click", (function(){
@@ -60,6 +300,13 @@ $(document).ready(function(){
   }
 
 $("#money").on("click", nextQuestion);
+
+$("#money").on("click", (function(){
+  $("#jack").attr("src", "jack.png");
+  $("#lucille").attr("src", "lucille.png");
+  $("#cartman").attr("src", "cartman.png");
+  $("#donald").attr("src", "donald.png");
+}));
 
 var topics = [
   "ON GLOBAL WARMING:",

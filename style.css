@@ -23,19 +23,16 @@ title{
 }
 
 body{
-  background: #990033;
   background: url("http://i.ytimg.com/vi/roTHJH3_URA/maxresdefault.jpg");
   background-size: cover;
-  margin: 10%;
+  margin: 5%;
   background-position: center;
   font-family: "avenir";
   color: black;
   font-size: 80px;
   font-style: italic;
-
+  background-repeat: no-repeat;
 }
-
-
 
 .face{
   float: left;
@@ -45,6 +42,7 @@ body{
 }
 
 #money{
+  display: block;
   width: 45%;
   margin-left: auto;
   margin-right: auto;
