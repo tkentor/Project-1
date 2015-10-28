@@ -1,32 +1,32 @@
 .quiz{
   font-family: "avenir";
   color: black;
-  font-size: 160px;
+  font-size: 40px;
   font-weight: bold;
-  padding-left: 20px;
+  padding-left: 5px;
 }
 
 .topicStyle{
-  font-size: 80px;
+  font-size: 20px;
   color: #bf0d3e;
   background: white;
   font-weight: bold;
-  padding: 10px 40px 10px 40px;
+  padding: 3px 10px 3px 10px;
 }
 
 .questionStyle{
-  font-size: 65px;
+  font-size: 17px;
   color: white;
   background: #041e42;
-  min-height: 180px;
+  min-height: 45px;
   display: block;
   vertical-align: bottom;
   font-style: italic;
-  padding: 40px;
+  padding: 10px;
 }
 
 title{
-  font-size: 3000px;
+  font-size: 750px;
 }
 
 body{
@@ -36,7 +36,7 @@ body{
   background-position: center;
   font-family: "avenir";
   color: black;
-  font-size: 80px;
+  font-size: 20px;
   background-repeat: no-repeat;
 }
 
