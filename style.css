@@ -30,7 +30,7 @@ title{
 }
 
 body{
-  background: url("http://i.ytimg.com/vi/roTHJH3_URA/maxresdefault.jpg");
+  background-image: url(http://i.ytimg.com/vi/roTHJH3_URA/maxresdefault.jpg);
   background-size: cover;
   margin: 5%;
   background-position: center;

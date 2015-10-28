@@ -25,13 +25,19 @@ $(document).ready(function(){
     "“The concept of global warming was created by and for the Chinese”",
     "“If that's a veiled criticism about me, I don't hear it and I won't respond to it.”",
     "“Ladies and gentlemen, I am officially running for president of the United States.”",
-    "That's the end. This quiz is missing scoring functionality, but I can assure you, you're a farmer."];
+    "That's the end. This quiz is missing scoring functionality, but I can assure you, you'll never be president. I reckon you oughta tend to your harvest."];
   var currentQuestion = 0;
+  var incorrect = 0;
+  var correct = 0;
   var nextQuestion = function ( event ) {
     $(".questionStyle").text(questions[currentQuestion]);
     currentQuestion += 1;
-  var incorrect = 0;
-  var correct = 0;
+//    $(".choices").off("click")
+    $("#jack").off("click")
+    $("#lucille").off("click")
+    $("#cartman").off("click")
+    $("#donald").off("click")
+
 
 // $("#jack").click(function() {
 //   $(this).effect( "bounce", "slow" );
@@ -64,30 +70,26 @@ $(document).ready(function(){
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "toilet.png")
-        correct ++;
-        console.log(correct, "correct")
       }))
     }
 
     if (currentQuestion == 2) {
       $("#jack").on("click", (function(){
         $("#jack").attr("src", "farmer.png")
-        incorrect += 1;
+        incorrect ++;
         console.log(incorrect, "incorrect")
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "toilet.png")
-        correct += 1;
-        console.log(correct, "correct")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "farmer.png")
-        incorrect += 1;
+        incorrect ++;
         console.log(incorrect, "incorrect")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "farmer.png")
-        incorrect += 1;
+        incorrect ++;
         console.log(incorrect, "incorrect")
       }))
     }
@@ -95,8 +97,6 @@ $(document).ready(function(){
     if (currentQuestion == 3) {
       $("#jack").on("click", (function(){
         $("#jack").attr("src", "toilet.png")
-        correct ++;
-        console.log(correct, "correct")
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "farmer.png")
@@ -118,12 +118,18 @@ $(document).ready(function(){
     if (currentQuestion == 4) {
       $("#jack").on("click", (function(){
         $("#jack").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "toilet.png")
@@ -133,12 +139,18 @@ $(document).ready(function(){
     if (currentQuestion == 5) {
       $("#jack").on("click", (function(){
         $("#jack").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "toilet.png")
@@ -148,45 +160,63 @@ $(document).ready(function(){
     if (currentQuestion == 6) {
       $("#jack").on("click", (function(){
         $("#jack").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "toilet.png")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
     }
 
     if (currentQuestion == 7) {
       $("#jack").on("click", (function(){
         $("#jack").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "toilet.png")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
     }
 
     if (currentQuestion == 8) {
       $("#jack").on("click", (function(){
         $("#jack").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "toilet.png")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
     }
 
@@ -196,24 +226,36 @@ $(document).ready(function(){
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
     }
 
     if (currentQuestion == 10) {
       $("#jack").on("click", (function(){
         $("#jack").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "toilet.png")
@@ -226,42 +268,60 @@ $(document).ready(function(){
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
     }
 
     if (currentQuestion == 12) {
       $("#jack").on("click", (function(){
         $("#jack").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "toilet.png")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
     }
 
     if (currentQuestion == 13) {
       $("#jack").on("click", (function(){
         $("#jack").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "toilet.png")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
     }
 
@@ -271,24 +331,36 @@ $(document).ready(function(){
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
     }
 
     if (currentQuestion == 15) {
       $("#jack").on("click", (function(){
         $("#jack").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "toilet.png")
@@ -298,12 +370,18 @@ $(document).ready(function(){
     if (currentQuestion == 16) {
       $("#jack").on("click", (function(){
         $("#jack").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "toilet.png")
@@ -313,27 +391,39 @@ $(document).ready(function(){
     if (currentQuestion == 17) {
       $("#jack").on("click", (function(){
         $("#jack").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "toilet.png")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
     }
 
     if (currentQuestion == 18) {
       $("#jack").on("click", (function(){
         $("#jack").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "toilet.png")
@@ -346,6 +436,11 @@ $(document).ready(function(){
         $("#lucille").attr("src", "farmer.png")
         $("#cartman").attr("src", "farmer.png")
         $("#donald").attr("src", "farmer.png")
+        $("body").css("background-image", "url(http://orig07.deviantart.net/24b8/f/2014/107/c/2/abandoned_feat_farm_by_matty4z-d7etllb.png)");
+        $("#money").attr("src", "cow.png")
+        $("#money").hover(function() {
+          $(this).attr("src","cow.png");
+        });
       }))
     }
 
@@ -378,13 +473,14 @@ var topics = [
   "ON IMMIGRATION:",
   "ON CLIMATE CHANGE:",
   "ON IMAGE:",
-  "ON THE WHITE HOUSE:",
-  "OOF. LOOKS LIKE YOU'RE A FARMER."]
+  "ON THE WHITE HOUSE:",]
 var currentTopic = 0;
 var nextTopic = function ( event ) {
+  if (currentTopic == 18) {
+    topics.push("OOF. YOU HAD " + incorrect + " INCORRECT GUESSES. DEFINITELY THE SCORE OF A FARMER.")
+  };
   $(".topicStyle").text(topics[currentTopic]);
   currentTopic += 1;
-
 }
 
 $("#money").on("click", nextTopic)
