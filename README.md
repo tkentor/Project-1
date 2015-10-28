@@ -11,3 +11,24 @@ As a user, I should see a new quote appear after I answer the previous question.
 After I answer ten questions, I should see my score displayed.
 
 As a user, I should see a video, gif, or link to a video displayed of one of the three individuals.
+
+
+TECHNOLOGIES USED:
+-HTML
+    -buttons
+    -divs
+-CSS
+-JavaScript
+    -jQuery
+    -hover
+    -replacing attributes
+    -pushing onto arrays
+-Adobe illustrator for images
+
+
+UNSOLVED ISSUES:
+
+-Images load slower than I'd like.
+-No mobile functionality.
+-I wanted to add live scoring, but I did not have time/ know what to do.
+-I tried adding a number of things I couldn't get to work, like a newsticker of quotes at the bottom, a flashing next button at the start, and bouncing icons at the end.
