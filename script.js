@@ -12,16 +12,16 @@ $(document).ready(function(){
     "“I don't have friends at NASA. Bunch of nerds.”",
     "“Black guys counting my money! I hate it. The only kind of people I want counting my money are little short guys that wear yarmulkes every day.”",
     "“I have a great relationship with the blacks.”",
-    "“My IQ is one of the highest—and you all know it! Please don’t feel so stupid or insecure, it’s not your fault.”",
+    "“They're building a wall to separate the US from the immigrants, which was my idea!”",
     "“Dolphins, eskimos, who cares?”",
     "“If you're worried about criticism, sometimes a diet is the best defense.”",
     "“I like when a woman has ambition. It's like seeing a dog wearing clothes.”",
-    "“The woman is on vacation with her husband as we speak. Probably having beach sex. Which is the third best sex after elevator and White House.”",
+    "“My fingers are long and beautiful, as it has been very well documented, are various other parts of my body.”",
     "“Money can't buy happiness. It is happiness.”",
     "“They're everywhere. They want to save the earth, but all they do is smoke pot and smell bad.”",
     "“They had to put their cardboard box up for a second mortgage.”",
-    "“My fingers are long and beautiful, as it has been very well documented, are various other parts of my body.”",
-    "“They're building a wall to separate the US from the immigrants, which was my idea!”",
+    "“The woman is on vacation with her husband as we speak. Probably having beach sex. Which is the third best sex after elevator and White House.”",
+    "“My IQ is one of the highest—and you all know it! Please don’t feel so stupid or insecure, it’s not your fault.”",
     "“The concept of global warming was created by and for the Chinese”",
     "“If that's a veiled criticism about me, I don't hear it and I won't respond to it.”",
     "“Ladies and gentlemen, I am officially running for president of the United States.”",
@@ -32,6 +32,19 @@ $(document).ready(function(){
     currentQuestion += 1;
   var incorrect = 0;
   var correct = 0;
+
+// $("#jack").click(function() {
+//   $(this).effect( "bounce", "slow" );
+// });
+
+  // if (currentQuestion == 1) {
+  //   setInterval(function(){
+  //     $("#money").toggle(function(){
+  //       $("#money").attr("src", "money.png")},function(){
+  //       $("money").attr("src", "money-hover.png")
+  //     }, 100)
+  //   })
+  // };
 
     if (currentQuestion == 1) {
       $("#jack").on("click", (function(){
@@ -140,10 +153,10 @@ $(document).ready(function(){
         $("#lucille").attr("src", "farmer.png")
       }))
       $("#cartman").on("click", (function(){
-        $("#cartman").attr("src", "farmer.png")
+        $("#cartman").attr("src", "toilet.png")
       }))
       $("#donald").on("click", (function(){
-        $("#donald").attr("src", "toilet.png")
+        $("#donald").attr("src", "farmer.png")
       }))
     }
 
@@ -194,7 +207,7 @@ $(document).ready(function(){
 
     if (currentQuestion == 10) {
       $("#jack").on("click", (function(){
-        $("#jack").attr("src", "toilet.png")
+        $("#jack").attr("src", "farmer.png")
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "farmer.png")
@@ -203,7 +216,7 @@ $(document).ready(function(){
         $("#cartman").attr("src", "farmer.png")
       }))
       $("#donald").on("click", (function(){
-        $("#donald").attr("src", "farmer.png")
+        $("#donald").attr("src", "toilet.png")
       }))
     }
 
@@ -254,6 +267,21 @@ $(document).ready(function(){
 
     if (currentQuestion == 14) {
       $("#jack").on("click", (function(){
+        $("#jack").attr("src", "toilet.png")
+      }));
+      $("#lucille").on("click", (function(){
+        $("#lucille").attr("src", "farmer.png")
+      }))
+      $("#cartman").on("click", (function(){
+        $("#cartman").attr("src", "farmer.png")
+      }))
+      $("#donald").on("click", (function(){
+        $("#donald").attr("src", "farmer.png")
+      }))
+    }
+
+    if (currentQuestion == 15) {
+      $("#jack").on("click", (function(){
         $("#jack").attr("src", "farmer.png")
       }));
       $("#lucille").on("click", (function(){
@@ -264,21 +292,6 @@ $(document).ready(function(){
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "toilet.png")
-      }))
-    }
-
-    if (currentQuestion == 15) {
-      $("#jack").on("click", (function(){
-        $("#jack").attr("src", "farmer.png")
-      }));
-      $("#lucille").on("click", (function(){
-        $("#lucille").attr("src", "toilet.png")
-      }))
-      $("#cartman").on("click", (function(){
-        $("#cartman").attr("src", "farmer.png")
-      }))
-      $("#donald").on("click", (function(){
-        $("#donald").attr("src", "farmer.png")
       }))
     }
 
@@ -348,22 +361,22 @@ $("#money").on("click", (function(){
 }));
 
 var topics = [
-  "ON GLOBAL WARMING:",
+  "ON CLIMATE CHANGE:",
   "ON IMMIGRATION:",
-  "ON GLOBAL WARMING:",
+  "ON CLIMATE CHANGE:",
   "ON FINANCE:",
   "ON RACE RELTIONS:",
-  "ON IMAGE:",
-  "ON GLOBAL WARMING:",
+  "ON IMMIGRATION:",
+  "ON CLIMATE CHANGE:",
   "ON IMAGE:",
   "ON GENDER EQUALITY:",
-  "ON THE WHITE HOUSE:",
+  "ON IMAGE:",
   "ON FINANCE:",
   "ON LIBERALS:",
   "ON FINANCE:",
-  "ON IMAGE:",
+  "ON THE WHITE HOUSE:",
   "ON IMMIGRATION:",
-  "ON GLOBAL WARMING:",
+  "ON CLIMATE CHANGE:",
   "ON IMAGE:",
   "ON THE WHITE HOUSE:",
   "OOF. LOOKS LIKE YOU'RE A FARMER."]
