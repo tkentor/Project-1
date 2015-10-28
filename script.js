@@ -25,7 +25,7 @@ $(document).ready(function(){
     "“The concept of global warming was created by and for the Chinese”",
     "“If that's a veiled criticism about me, I don't hear it and I won't respond to it.”",
     "“Ladies and gentlemen, I am officially running for president of the United States.”",
-    "That's the end. This quiz is missing scoring functionality, but I can assure you, you'll never be president. I reckon you oughta tend to your harvest."];
+    "So embarassing. You're definitely a farmer, aren't you? Lucky for you, even farmers get a vote. Cast yours for Cartman/Donaghy 2016."];
   var currentQuestion = 0;
   var incorrect = 0;
   var correct = 0;
@@ -477,7 +477,7 @@ var topics = [
 var currentTopic = 0;
 var nextTopic = function ( event ) {
   if (currentTopic == 18) {
-    topics.push("OOF. YOU HAD " + incorrect + " INCORRECT GUESSES. DEFINITELY THE SCORE OF A FARMER.")
+    topics.push("OOF. YOU HAD " + incorrect + " INCORRECT GUESSES.")
   };
   $(".topicStyle").text(topics[currentTopic]);
   currentTopic += 1;
