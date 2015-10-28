@@ -24,55 +24,81 @@ $(document).ready(function(){
     "“They're building a wall to separate the US from the immigrants, which was my idea!”",
     "“The concept of global warming was created by and for the Chinese”",
     "“If that's a veiled criticism about me, I don't hear it and I won't respond to it.”",
-    "“Ladies and gentlemen, I am officially running for president of the United States.”"];
+    "“Ladies and gentlemen, I am officially running for president of the United States.”",
+    "That's the end. This quiz is missing scoring functionality, but I can assure you, you're a farmer."];
   var currentQuestion = 0;
   var nextQuestion = function ( event ) {
     $(".questionStyle").text(questions[currentQuestion]);
     currentQuestion += 1;
+  var incorrect = 0;
+  var correct = 0;
 
     if (currentQuestion == 1) {
       $("#jack").on("click", (function(){
         $("#jack").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "toilet.png")
-    //    points++
+        correct ++;
+        console.log(correct, "correct")
       }))
     }
 
     if (currentQuestion == 2) {
       $("#jack").on("click", (function(){
         $("#jack").attr("src", "farmer.png")
+        incorrect += 1;
+        console.log(incorrect, "incorrect")
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "toilet.png")
+        correct += 1;
+        console.log(correct, "correct")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "farmer.png")
+        incorrect += 1;
+        console.log(incorrect, "incorrect")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "farmer.png")
+        incorrect += 1;
+        console.log(incorrect, "incorrect")
       }))
     }
 
     if (currentQuestion == 3) {
       $("#jack").on("click", (function(){
         $("#jack").attr("src", "toilet.png")
+        correct ++;
+        console.log(correct, "correct")
       }));
       $("#lucille").on("click", (function(){
         $("#lucille").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#cartman").on("click", (function(){
         $("#cartman").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
       $("#donald").on("click", (function(){
         $("#donald").attr("src", "farmer.png")
+        incorrect ++;
+        console.log(incorrect, "incorrect")
       }))
     }
 
@@ -301,6 +327,15 @@ $(document).ready(function(){
       }))
     }
 
+    if (currentQuestion == 18) {
+      $("#money").on("click", (function(){
+        $("#jack").attr("src", "farmer.png")
+        $("#lucille").attr("src", "farmer.png")
+        $("#cartman").attr("src", "farmer.png")
+        $("#donald").attr("src", "farmer.png")
+      }))
+    }
+
   }
 
 $("#money").on("click", nextQuestion);
@@ -330,20 +365,14 @@ var topics = [
   "ON IMMIGRATION:",
   "ON GLOBAL WARMING:",
   "ON IMAGE:",
-  "ON THE WHITE HOUSE:"]
+  "ON THE WHITE HOUSE:",
+  "OOF. LOOKS LIKE YOU'RE A FARMER."]
 var currentTopic = 0;
 var nextTopic = function ( event ) {
   $(".topicStyle").text(topics[currentTopic]);
   currentTopic += 1;
 
-if (currentQuestion == 1) {
-  alert("Select the wordsmith behind each quote. Reveal a golden toilet and you're smart enough to be president. Otherwise, brush up, simpleton... what are you, a farmer?")
 }
-
-}
-
-
-
 
 $("#money").on("click", nextTopic)
 

@@ -3,6 +3,7 @@
   color: black;
   font-size: 160px;
   font-weight: bold;
+  padding-left: 20px;
 }
 
 .topicStyle{
@@ -10,12 +11,18 @@
   color: #bf0d3e;
   background: white;
   font-weight: bold;
+  padding: 10px 40px 10px 40px;
 }
 
 .questionStyle{
-  font-size: 75px;
+  font-size: 65px;
   color: white;
   background: #041e42;
+  min-height: 180px;
+  display: block;
+  vertical-align: bottom;
+  font-style: italic;
+  padding: 40px;
 }
 
 title{
@@ -30,7 +37,6 @@ body{
   font-family: "avenir";
   color: black;
   font-size: 80px;
-  font-style: italic;
   background-repeat: no-repeat;
 }
 
