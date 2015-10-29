@@ -436,7 +436,7 @@ $(document).ready(function(){
         $("#lucille").attr("src", "farmer.png")
         $("#cartman").attr("src", "farmer.png")
         $("#donald").attr("src", "farmer.png")
-        $("html").css("background", "url(http://orig07.deviantart.net/24b8/f/2014/107/c/2/abandoned_feat_farm_by_matty4z-d7etllb.png) no-repeat center contain fixed");
+        $("html").css("background", "url(http://orig07.deviantart.net/24b8/f/2014/107/c/2/abandoned_feat_farm_by_matty4z-d7etllb.png) no-repeat center center fixed");
         $("#money").attr("src", "cow.png")
         $("#money").hover(function() {
           $(this).attr("src","cow.png");
