@@ -25,7 +25,7 @@ $(document).ready(function(){
     "“The concept of global warming was created by and for the Chinese”",
     "“If that's a veiled criticism about me, I don't hear it and I won't respond to it.”",
     "“Ladies and gentlemen, I am officially running for president of the United States.”",
-    "So embarassing. You're definitely a farmer, aren't you? Lucky for you, even farmers get a vote. Cast yours for Cartman/Donaghy 2016."];
+    "You're definitely a farmer. I called the concierge service with my Amex Invisible Card. There are no rental cars. The trains and buses are sold out. You'll be on that farm forever."];
   var currentQuestion = 0;
   var incorrect = 0;
   var correct = 0;
@@ -436,7 +436,7 @@ $(document).ready(function(){
         $("#lucille").attr("src", "farmer.png")
         $("#cartman").attr("src", "farmer.png")
         $("#donald").attr("src", "farmer.png")
-        $("body").css("background-image", "url(http://orig07.deviantart.net/24b8/f/2014/107/c/2/abandoned_feat_farm_by_matty4z-d7etllb.png)");
+        $("html").css("background", "url(http://orig07.deviantart.net/24b8/f/2014/107/c/2/abandoned_feat_farm_by_matty4z-d7etllb.png) no-repeat center contain fixed");
         $("#money").attr("src", "cow.png")
         $("#money").hover(function() {
           $(this).attr("src","cow.png");
