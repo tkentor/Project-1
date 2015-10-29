@@ -7,25 +7,25 @@ $(document).ready(function(){
   });
 
   var questions = [
-    "“It's freezing and snowing in New York. We need global warming!”",
-    "“They didn't sneak into this country to be your friends.”",
-    "“I don't have friends at NASA. Bunch of nerds.”",
-    "“Black guys counting my money! I hate it. The only kind of people I want counting my money are little short guys that wear yarmulkes every day.”",
-    "“I have a great relationship with the blacks.”",
-    "“They're building a wall to separate the US from the immigrants, which was my idea!”",
-    "“Dolphins, eskimos, who cares?”",
-    "“If you're worried about criticism, sometimes a diet is the best defense.”",
-    "“I like when a woman has ambition. It's like seeing a dog wearing clothes.”",
-    "“My fingers are long and beautiful, as it has been very well documented, are various other parts of my body.”",
-    "“Money can't buy happiness. It is happiness.”",
-    "“They're everywhere. They want to save the earth, but all they do is smoke pot and smell bad.”",
-    "“They had to put their cardboard box up for a second mortgage.”",
-    "“The woman is on vacation with her husband as we speak. Probably having beach sex. Which is the third best sex after elevator and White House.”",
-    "“My IQ is one of the highest—and you all know it! Please don’t feel so stupid or insecure, it’s not your fault.”",
-    "“The concept of global warming was created by and for the Chinese”",
-    "“If that's a veiled criticism about me, I don't hear it and I won't respond to it.”",
-    "“Ladies and gentlemen, I am officially running for president of the United States.”",
-    "You're definitely a farmer. I called the concierge service with my Amex Invisible Card. There are no rental cars. The trains and buses are sold out. You'll be on that farm forever."];
+    "(1/18) “It's freezing and snowing in New York. We need global warming!”",
+    "(2/18) “They didn't sneak into this country to be your friends.”",
+    "(3/18) “I don't have friends at NASA. Bunch of nerds.”",
+    "(4/18) “Black guys counting my money! I hate it. The only kind of people I want counting my money are little short guys that wear yarmulkes every day.”",
+    "(5/18) “I have a great relationship with the blacks.”",
+    "(6/18) “They're building a wall to separate the US from the immigrants, which was my idea!”",
+    "(7/18) “Dolphins, eskimos, who cares?”",
+    "(8/18) “If you're worried about criticism, sometimes a diet is the best defense.”",
+    "(9/18) “I like when a woman has ambition. It's like seeing a dog wearing clothes.”",
+    "(10/18) “My fingers are long and beautiful, as it has been very well documented, are various other parts of my body.”",
+    "(11/18) “Money can't buy happiness. It is happiness.”",
+    "(12/18) “They're everywhere. They want to save the earth, but all they do is smoke pot and smell bad.”",
+    "(13/18) “They had to put their cardboard box up for a second mortgage.”",
+    "(14/18) “The woman is on vacation with her husband as we speak. Probably having beach sex. Which is the third best sex after elevator and White House.”",
+    "(15/18) “My IQ is one of the highest—and you all know it! Please don’t feel so stupid or insecure, it’s not your fault.”",
+    "(16/18) “The concept of global warming was created by and for the Chinese”",
+    "(17/18) “If that's a veiled criticism about me, I don't hear it and I won't respond to it.”",
+    "(18/18) “Ladies and gentlemen, I am officially running for president of the United States.”",
+    "You're a total farmer. I called the concierge service with my Amex Invisible Card. There are no rental cars. The trains and buses are sold out. You're never leaving your farm."];
   var currentQuestion = 0;
   var incorrect = 0;
   var correct = 0;
@@ -436,7 +436,7 @@ $(document).ready(function(){
         $("#lucille").attr("src", "farmer.png")
         $("#cartman").attr("src", "farmer.png")
         $("#donald").attr("src", "farmer.png")
-        $("html").css("background", "url(http://orig07.deviantart.net/24b8/f/2014/107/c/2/abandoned_feat_farm_by_matty4z-d7etllb.png) no-repeat center center fixed");
+        $("html").css("background", "url(https://upload.wikimedia.org/wikipedia/commons/d/d4/Misty_field,_Telemark,_Norway.jpg) no-repeat center center fixed");
         $("#money").attr("src", "cow.png")
         $("#money").hover(function() {
           $(this).attr("src","cow.png");
